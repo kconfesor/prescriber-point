@@ -1,0 +1,6 @@
+@TechnicalInterview.WebAPI_HostAddress = http://localhost:5274
+
+GET {{TechnicalInterview.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

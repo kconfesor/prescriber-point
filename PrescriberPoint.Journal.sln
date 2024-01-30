@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{977D8B94-547C-4264-B8AC-3A9E0CFB1916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrescriberPoint.Journal.WebApi", "src\PrescriberPoint.Journal.WebApi\PrescriberPoint.Journal.WebApi.csproj", "{D57230DE-B89A-4D00-8891-E78FECDC5230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrescriberPoint.Journal.Domain", "src\PrescriberPoint.Journal.Domain\PrescriberPoint.Journal.Domain.csproj", "{E783C028-3AE3-4A44-8D90-25A8132C2F9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrescriberPoint.Journal.Application", "src\PrescriberPoint.Journal.Application\PrescriberPoint.Journal.Application.csproj", "{BB00D183-585E-42C8-9AA1-C2C226DF6C4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrescriberPoint.Journal.Persistence.Pgsql", "src\PrescriberPoint.Journal.Persistence.Pgsql\PrescriberPoint.Journal.Persistence.Pgsql.csproj", "{7048F8AC-FFB6-4540-9C70-38A1DDC50B25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrescriberPoint.Journal.Persistence", "src\PrescriberPoint.Journal.Persistence\PrescriberPoint.Journal.Persistence.csproj", "{B0B4F2E8-4A8F-4D5C-92A5-C5B9A604F349}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{51FDA42F-2C0F-4CCD-991D-7179577E8C25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1775904A-08D8-48B7-ABC2-F6010895DFF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4586EBB8-9064-4790-912C-45A585292356}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{81B5DDA3-7B4A-479E-81CE-BACE4F59F157}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B95F15F2-2707-411F-B44C-9834BAA3C1E1}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		init.sql = init.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrescriberPoint.Journal.Application.Tests", "tests\PrescriberPoint.Journal.Application.Tests\PrescriberPoint.Journal.Application.Tests.csproj", "{08C7F2C5-F23D-4BC1-BB1D-21DD9E8D3F40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrescriberPoint.Journal.WebApi.Tests", "src\PrescriberPoint.Journal.WebApi.Tests\PrescriberPoint.Journal.WebApi.Tests.csproj", "{31E326F8-F80F-4DE1-AF96-C11BB0B6303B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D57230DE-B89A-4D00-8891-E78FECDC5230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D57230DE-B89A-4D00-8891-E78FECDC5230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D57230DE-B89A-4D00-8891-E78FECDC5230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D57230DE-B89A-4D00-8891-E78FECDC5230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E783C028-3AE3-4A44-8D90-25A8132C2F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E783C028-3AE3-4A44-8D90-25A8132C2F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E783C028-3AE3-4A44-8D90-25A8132C2F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E783C028-3AE3-4A44-8D90-25A8132C2F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB00D183-585E-42C8-9AA1-C2C226DF6C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB00D183-585E-42C8-9AA1-C2C226DF6C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB00D183-585E-42C8-9AA1-C2C226DF6C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB00D183-585E-42C8-9AA1-C2C226DF6C4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7048F8AC-FFB6-4540-9C70-38A1DDC50B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7048F8AC-FFB6-4540-9C70-38A1DDC50B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7048F8AC-FFB6-4540-9C70-38A1DDC50B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7048F8AC-FFB6-4540-9C70-38A1DDC50B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0B4F2E8-4A8F-4D5C-92A5-C5B9A604F349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0B4F2E8-4A8F-4D5C-92A5-C5B9A604F349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0B4F2E8-4A8F-4D5C-92A5-C5B9A604F349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0B4F2E8-4A8F-4D5C-92A5-C5B9A604F349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08C7F2C5-F23D-4BC1-BB1D-21DD9E8D3F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08C7F2C5-F23D-4BC1-BB1D-21DD9E8D3F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08C7F2C5-F23D-4BC1-BB1D-21DD9E8D3F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08C7F2C5-F23D-4BC1-BB1D-21DD9E8D3F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E326F8-F80F-4DE1-AF96-C11BB0B6303B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E326F8-F80F-4DE1-AF96-C11BB0B6303B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E326F8-F80F-4DE1-AF96-C11BB0B6303B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E326F8-F80F-4DE1-AF96-C11BB0B6303B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D57230DE-B89A-4D00-8891-E78FECDC5230} = {977D8B94-547C-4264-B8AC-3A9E0CFB1916}
+		{51FDA42F-2C0F-4CCD-991D-7179577E8C25} = {977D8B94-547C-4264-B8AC-3A9E0CFB1916}
+		{BB00D183-585E-42C8-9AA1-C2C226DF6C4B} = {51FDA42F-2C0F-4CCD-991D-7179577E8C25}
+		{E783C028-3AE3-4A44-8D90-25A8132C2F9A} = {51FDA42F-2C0F-4CCD-991D-7179577E8C25}
+		{B0B4F2E8-4A8F-4D5C-92A5-C5B9A604F349} = {51FDA42F-2C0F-4CCD-991D-7179577E8C25}
+		{1775904A-08D8-48B7-ABC2-F6010895DFF1} = {977D8B94-547C-4264-B8AC-3A9E0CFB1916}
+		{7048F8AC-FFB6-4540-9C70-38A1DDC50B25} = {1775904A-08D8-48B7-ABC2-F6010895DFF1}
+		{4586EBB8-9064-4790-912C-45A585292356} = {977D8B94-547C-4264-B8AC-3A9E0CFB1916}
+		{81B5DDA3-7B4A-479E-81CE-BACE4F59F157} = {977D8B94-547C-4264-B8AC-3A9E0CFB1916}
+		{08C7F2C5-F23D-4BC1-BB1D-21DD9E8D3F40} = {4586EBB8-9064-4790-912C-45A585292356}
+		{31E326F8-F80F-4DE1-AF96-C11BB0B6303B} = {4586EBB8-9064-4790-912C-45A585292356}
+	EndGlobalSection
+EndGlobal
